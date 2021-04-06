@@ -1,4 +1,4 @@
-echo "----build start----"
+echo "----build start------"
 
 stage('Checkout Stage') {
     echo "---Checkout---"
