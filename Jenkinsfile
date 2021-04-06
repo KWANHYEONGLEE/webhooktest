@@ -16,7 +16,7 @@
 node{
     stage('Checkout Stage'){
         print('chekout stage')
-        sh 'sudo docker build -t jenkins/pleas_dokcer .'
+        sh 'docker build -t jenkins/please_dokcer .'
     }
 
     stage('Build Stage'){
