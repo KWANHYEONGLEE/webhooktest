@@ -19,6 +19,7 @@ node{
         sh 'pwd'
         sh 'cd /var/lib/jenkins/workspace/pipeline_trigger'
         sh 'pwd'
+        sh 'ls'
         sh 'docker build -t jenkins/please_docker .'
     }
 
