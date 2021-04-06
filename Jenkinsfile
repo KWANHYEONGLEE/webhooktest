@@ -19,7 +19,7 @@ node{
         sh 'pwd'
         sh 'cd /var/lib/jenkins/workspace/pipeline_trigger'
         sh 'pwd'
-        sh 'sudo docker build -t jenkins/please_docker .'
+        sh 'docker build -t jenkins/please_docker .'
     }
 
     stage('Build Stage'){
