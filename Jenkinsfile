@@ -17,9 +17,9 @@ node{
     stage('Checkout Stage'){
         print('chekout stage')
         sh 'pwd'
-        sh 'cd /var/lib/jenkins/workspace/pipeline_trigger '
-         sh 'pwd'
-        sh 'docker build -t jenkins/please_dokcer .'
+        sh 'cd /var/lib/jenkins/workspace/pipeline_trigger'
+        sh 'pwd'
+        sh 'sudo docker build -t jenkins/please_docker .'
     }
 
     stage('Build Stage'){
