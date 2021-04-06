@@ -16,6 +16,8 @@
 node{
     stage('Checkout Stage'){
         print('chekout stage')
+        sh 'pwd'
+        sh 'ls'
         sh 'docker build -t jenkins/please_dokcer .'
     }
 
