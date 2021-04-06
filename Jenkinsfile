@@ -2,7 +2,7 @@ echo "----build start------"
 
 stage('Checkout Stage') {
     echo "---Checkout---"
-    echo " 이번엔되니?"
+    echo " /때문이라고?"
 }
 
 stage('Build Stage') {
